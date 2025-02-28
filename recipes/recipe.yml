@@ -20,11 +20,11 @@ modules:
   - type: rpm-ostree
     repos:
       - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-41/atim-starship-fedora-41.repo
-      - https://copr.fedorainfracloud.org/coprs/areif-dev/river-bsp-layout/repo/fedora-41/areif-dev-river-bsp-layout-fedora-41.repo
     install:
-      - river-bsp-layout
       - starship
       - emacs
+      - docker-compose
+      - podman-compose
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
