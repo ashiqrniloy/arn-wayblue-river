@@ -31,6 +31,7 @@ modules:
       - podman-compose
       - keyd
       - helix
+      - swaybg
     remove:
       # example: removing firefox (in favor of the flatpak)
       # "firefox" is the main package, "firefox-langpacks" is a dependency
@@ -40,6 +41,11 @@ modules:
   - type: brew
     nofile-limits: true
     brew-analytics: false
+
+  - type: files
+    files:
+      - source: system/etc
+      - destination: /etc
 
 # chezmoi
 # systemd service for emacs
