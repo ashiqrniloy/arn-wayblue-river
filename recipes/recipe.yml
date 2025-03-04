@@ -47,6 +47,22 @@ modules:
     files:
       - source: system/etc
       - destination: /etc
+      
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - CommitMono
+        - MartianMono
+        - RobotoMono
+        - Symbols
+        - ZedMono
+      google-fonts:
+        - Roboto
+        - Open Sans
+        - Work Sans
+        - Inter
+        - Merriweather
+        - Lora
 
 # chezmoi
 # systemd service for emacs
