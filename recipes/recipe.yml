@@ -47,7 +47,7 @@ modules:
     files:
       - source: system/etc
       - destination: /etc
-      
+
   - type: fonts
     fonts:
       nerd-fonts:
