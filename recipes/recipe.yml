@@ -56,13 +56,6 @@ modules:
         - RobotoMono
         - Symbols
         - ZedMono
-      google-fonts:
-        - Roboto
-        - Open Sans
-        - Work Sans
-        - Inter
-        - Merriweather
-        - Lora
 
 # chezmoi
 # systemd service for emacs
