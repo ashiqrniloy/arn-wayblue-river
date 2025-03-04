@@ -47,16 +47,6 @@ modules:
     files:
       - source: system/etc
       - destination: /etc
-
-  - type: fonts
-    fonts:
-      nerd-fonts:
-        - CommitMono
-        - MartianMono
-        - RobotoMono
-        - Symbols
-        - ZedMono
-
 # chezmoi
 # systemd service for emacs
 
