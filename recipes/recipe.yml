@@ -33,7 +33,6 @@ modules:
       - swaybg
       - xlsclients
       - wlopm
-      - snapd
       - syncthing
     remove:
       # example: removing firefox (in favor of the flatpak)
