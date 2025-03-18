@@ -34,7 +34,7 @@ modules:
       - xlsclients
       - syncthing
       - sddm-breeze
-      - fuzzel
+      - rofi-wayland
       - mako
     remove:
       # example: removing firefox (in favor of the flatpak)
@@ -42,7 +42,6 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - dunst
-      - rofi-wayland
 
   - type: brew
     nofile-limits: true
