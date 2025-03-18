@@ -2,7 +2,7 @@
 
 # arn-wayblue-river &nbsp; 
 
-This image is a light customization layer on top of the image provided by ![wayblueorg](https://github.com/wayblueorg/wayblue/) for the ![river](https://codeberg.org/river/river/) wayland compositor.
+This image is a light customization layer on top of the image provided by [wayblueorg](https://github.com/wayblueorg/wayblue/) for the [river](https://codeberg.org/river/river/) wayland compositor.
 
 [![bluebuild build badge](https://github.com/ashiqrniloy/arn-wayblue-river/actions/workflows/build.yml/badge.svg)](https://github.com/ashiqrniloy/arn-wayblue-river/actions/workflows/build.yml)
 
