@@ -32,7 +32,6 @@ modules:
       - helix
       - swaybg
       - xlsclients
-      - wlopm
       - syncthing
       - sddm-breeze
       - fuzzel
