@@ -41,6 +41,8 @@ modules:
       - firefox
       - firefox-langpacks # also remove firefox dependency (not required for all packages, this is a special case)
       - dunst
+      - kwallet
+      - plasma-systemsettings
 
   - type: brew
     nofile-limits: true
